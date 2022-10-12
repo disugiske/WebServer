@@ -14,5 +14,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
+    - name: start server
+      run: python httpd.py -r ./doc_root
     - name: Python Unit Test
       run: python -m unittest httptest.py
