@@ -25,15 +25,12 @@ http_content_type = {
     "txt": "text/plain",
     "ico": "image/x-icon",
 }
-head200 = "200 OK"
-head404 = "404 NOT FOUND"
-head405 = "405 Method Not Allowed\r\nAllow: GET, HEAD"
-head400 = "400 Bad Request"
+
 head_result = {
-    200: head200,
-    404: head404,
-    400: head400,
-    405: head405
+    200: "200 OK",
+    404: "404 NOT FOUND",
+    400: "400 Bad Request",
+    405: "405 Method Not Allowed\r\nAllow: GET, HEAD"
 }
 
 
