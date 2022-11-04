@@ -1,5 +1,9 @@
-Сервер sync/threadpool  
-Результаты нагрузочного тестирования:  
+# Базовый http сервер на сокетах на чистом python
+
+Технология: Сервер sync/threadpool 
+
+## Результаты нагрузочного тестирования:
+```
 Server Software:        CustomServer/1.0  
 Server Hostname:        localhost  
 Server Port:            8080  
@@ -36,3 +40,4 @@ Percentage of the requests served within a certain time (ms)
   98%     10  
   99%     12  
  100%  122470 (longest request)  
+```
